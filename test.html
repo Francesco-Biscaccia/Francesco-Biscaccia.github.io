@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Less is More</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #121212;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .typewriter-text {
+            font-size: 25px;
+            color:  #f8f8f8;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3s steps(30) forwards, blinkCursor 0.5s 10;
+        }
+ 
+
+        @keyframes typing {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+
+        @keyframes showing {
+            from {
+                opacity: 0;
+                transform: scale(0.9)
+            }
+            75%{
+              opacity: 0;
+              transform: scale(1.1)
+            }
+            to {
+                opacity: 1;
+                transform: scale(1.0)
+            }
+        }
+
+        @keyframes jump {
+            from {
+                transform: scale(1)
+            }
+            50%{
+                transform: scale(1.2)
+            }
+            to {
+                transform: scale(1)
+            }
+        }
+
+
+        @keyframes blinkCursor {
+            from, to {
+          border-right:3px solid transparent;
+        }
+        50% {
+            border-right:3px solid #f8f8f8;
+        }
+        }
+
+        .main_div{
+          width:50%;
+          padding: 0% 25% 0% 25%;
+          color:#f8f8f8;
+          display:block;
+          align-items:center;
+        }
+        .links_div{
+         width: 60%;
+         text-align:center;
+          padding-left: 20%;
+          padding-right:20%;
+          display: inline-block;
+          animation:showing 7s;
+        }
+
+        .link{
+          width: 10%;
+          margin: 5%
+        }
+
+        .link:hover{
+          cursor: pointer;
+          animation: jump 2s infinite;
+        }
+
+
+
+        .propic_div{
+          display:block;
+        }
+
+        .propic{
+          border-radius: 25%;
+          border: 1px solid #f8f8f8;
+          align-items:center;
+          width:20%;
+        }
+    </style>
+</head>
+<body>
+  <div class="main_div">
+    <img class="propic" src="./propic.jpg"></img>
+    <h1>Francesco Biscaccia Carrara</h1>
+    <h1 class="typewriter-text" id="quote"></h1>
+    <div class="links_div">
+      <img class ="link" src="./x_icon.svg"></img> 
+      <img class ="link" src="./medium_icon.svg"></img> 
+      <img class ="link" src="./docs_icon.svg"></img> 
+    </div>
+  </div>
+ <script>
+      const quotes = ["Less is more", "Do it or retry", "Never regret"]
+      
+      document.getElementById("quote").innerHTML = quotes[Math.floor(Math.random() * (quotes.length + 1))]
+    </script>
+</body>
+</html>
+
