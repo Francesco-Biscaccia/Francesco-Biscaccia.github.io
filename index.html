@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Less is More</title>
+    <title>Francesco Biscaccia Carrara</title>
     <style>
         body {
             font-family: 'Courier New', Courier, monospace;
@@ -95,13 +95,13 @@
 
         .link:hover{
           cursor: pointer;
-          animation: jump 2s infinite;
+          animation: jump 1.5s infinite;
         }
-
 
 
         .propic_div{
           display:block;
+          animation:showing 7s;
         }
 
         .propic{
@@ -114,13 +114,15 @@
 </head>
 <body>
   <div class="main_div">
-    <img class="propic" src="./propic.jpg"></img>
-    <h1>Francesco Biscaccia Carrara</h1>
+    <div class="propic_div">
+      <img class="propic" src="./img/propic.jpg">
+      <h1>Francesco Biscaccia Carrara</h1>
+    </div>
     <h1 class="typewriter-text" id="quote"></h1>
     <div class="links_div">
-      <img class ="link" src="./x_icon.svg"></img> 
-      <img class ="link" src="./medium_icon.svg"></img> 
-      <img class ="link" src="./docs_icon.svg"></img> 
+      <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fbiscaccia"><img class ="link" src="./img/x_icon.svg"></a>
+      <a href="https://medium.com/@francescobiscaccia"><img class ="link" src="./img/medium_icon.svg"></a>
+      <img class ="link" src="./img/docs_icon.svg">
     </div>
   </div>
  <script>
