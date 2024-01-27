@@ -1,0 +1,212 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #121212;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.typewriter_text {
+  font-size: 25px;
+  color: #f8f8f8;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(30) forwards, blinkCursor 0.5s 10;
+}
+
+.typewriter_text_no_anim {
+  font-size: 25px;
+  color: #f8f8f8;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    display: block;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes showing {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  75% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes jump {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes blinkCursor {
+  from,
+  to {
+    border-right: 3px solid transparent;
+  }
+  50% {
+    border-right: 3px solid #f8f8f8;
+  }
+}
+
+.main_div {
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+  color: #f8f8f8;
+  display: block;
+  align-items: center;
+}
+
+.main_div_hide {
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+  color: #f8f8f8;
+  display: block;
+  align-items: center;
+  animation: hide 2s forwards;
+}
+
+.main_div_show {
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+  color: #f8f8f8;
+  display: block;
+  align-items: center;
+  animation: show 2s forwards;
+}
+
+.links_div {
+  width: 60%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: inline-block;
+  animation: showing 7s;
+}
+
+.links_div_no_anim {
+  width: 60%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: inline-block;
+}
+
+.link {
+  width: 10%;
+  margin: 5%;
+}
+
+.link:hover {
+  cursor: pointer;
+  animation: jump 1.5s infinite;
+}
+
+.propic_div {
+  display: block;
+  animation: showing 7s;
+}
+
+.propic_div_no_anim {
+  display: block;
+}
+
+.propic {
+  border-radius: 25%;
+  border: 1px solid #f8f8f8;
+  align-items: center;
+  width: 20%;
+}
+
+.file_div {
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+  color: #f8f8f8;
+  display: none;
+  align-items: center;
+}
+
+.file_div_show {
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+  color: #f8f8f8;
+  display: none;
+  align-items: center;
+  animation: show 2s forwards;
+}
+.file_div_hide {
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+  color: #f8f8f8;
+  display: none;
+  align-items: center;
+  animation: hide 2s forwards;
+}
+.back_icon {
+  width: 4%;
+}
+.back_icon:hover {
+  cursor: pointer;
+  animation: jump 1.5s infinite;
+}
+.file_icon {
+  width: 3%;
+  vertical-align: bottom;
+  padding-right: 2%;
+}
+.file_txt {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+.file_txt:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.file_txt:visited {
+  text-decoration: none;
+}
+
+.sep{
+    border: 1px solid #f8f8f8;
+}
