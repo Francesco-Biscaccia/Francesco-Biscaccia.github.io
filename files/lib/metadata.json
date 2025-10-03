@@ -1,0 +1,547 @@
+{
+  "vaultName": "Bisca's Archive",
+  "lastExport": 1748437635883,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon is-fullscreen",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "01 - Area/Unipd/Big Data Computing/Argument BD.md",
+    "01 - Area/Unipd/Big Data Computing/Idee map-reduce.md",
+    "01 - Area/Unipd/Computer & Network Security/0_CNS-Exam_Rules.md",
+    "01 - Area/Unipd/Computer & Network Security/1_Set-UID_Mechanism.md",
+    "01 - Area/Unipd/Computer & Network Security/2_Attack_on_Set-UID.md",
+    "01 - Area/Unipd/Computer & Network Security/3_Env_Variables.md",
+    "01 - Area/Unipd/Computer & Network Security/4_Attack_on_Environment Variables.md",
+    "01 - Area/Unipd/Computer & Network Security/5_Shellshock_Attack.md",
+    "01 - Area/Unipd/Computer & Network Security/6_Buffer_Overflow.md",
+    "01 - Area/Unipd/Computer & Network Security/7_Return-to-libc.md",
+    "01 - Area/Unipd/Computer & Network Security/8_Packet_Sniffing_Spoofing.md",
+    "01 - Area/Unipd/Computer & Network Security/9_TCP_Attack.md",
+    "01 - Area/Unipd/Computer & Network Security/10_Format_String.md",
+    "01 - Area/Unipd/Concurrent and RT Programming/8_4-Concurrent_RT_Programming.md",
+    "01 - Area/Unipd/Distributed Systems/20241004_Distributed_System.md",
+    "01 - Area/Unipd/Distributed Systems/20241017_Distributed_Systems.md",
+    "01 - Area/Unipd/Distributed Systems/20241018_Distributed_System.md",
+    "01 - Area/Unipd/Distributed Systems/20241108_Distributed_System.md",
+    "01 - Area/Unipd/Learning From Networks/Analysis of Eppstein-Wang Algorithm.md",
+    "01 - Area/Unipd/Learning From Networks/Graph Analysis.md",
+    "01 - Area/Unipd/Learning From Networks/ML Topics.md",
+    "01 - Area/Unipd/Operation Research/Metaheuristics/Metaheursitic intro.md",
+    "01 - Area/Unipd/Operation Research/Metaheuristics/Tabu Search.md",
+    "01 - Area/Unipd/Operation Research/Cplex.md",
+    "01 - Area/Unipd/Operation Research/Cplex callback.md",
+    "01 - Area/Unipd/Operation Research/CPLEX Chap Or2 Thesis.md",
+    "01 - Area/Unipd/Operation Research/OR Def and Theorem.md",
+    "01 - Area/Unipd/Operation Research/OR2 Task.md",
+    "01 - Area/Unipd/Statistics/Exercises L3.md",
+    "01 - Area/Unipd/Statistics/Pasted image 20231111113111.png",
+    "01 - Area/Unipd/Statistics/Pasted image 20231111144827.png",
+    "01 - Area/Unipd/Statistics/Pasted image 20231111145030.png",
+    "01 - Area/Unipd/Statistics/Pasted image 20231111145711.png",
+    "01 - Area/Unipd/Bisca's Mind.md",
+    "01 - Area/Unipd/Thesis Notes.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/MathJax_Zero.woff",
+    "lib/fonts/MathJax_Main-Regular.woff",
+    "lib/fonts/MathJax_Main-Bold.woff",
+    "lib/fonts/MathJax_Math-Italic.woff",
+    "lib/fonts/MathJax_Main-Italic.woff",
+    "lib/fonts/MathJax_Math-BoldItalic.woff",
+    "lib/fonts/MathJax_Size1-Regular.woff",
+    "lib/fonts/MathJax_Size2-Regular.woff",
+    "lib/fonts/MathJax_Size3-Regular.woff",
+    "lib/fonts/MathJax_Size4-Regular.woff",
+    "lib/fonts/MathJax_AMS-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Bold.woff",
+    "lib/fonts/MathJax_Fraktur-Regular.woff",
+    "lib/fonts/MathJax_Fraktur-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Regular.woff",
+    "lib/fonts/MathJax_SansSerif-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Italic.woff",
+    "lib/fonts/MathJax_Script-Regular.woff",
+    "lib/fonts/MathJax_Typewriter-Regular.woff",
+    "lib/fonts/MathJax_Vector-Regular.woff",
+    "lib/fonts/MathJax_Vector-Bold.woff"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/fonts/MathJax_Zero.woff",
+    "lib/fonts/MathJax_Main-Regular.woff",
+    "lib/fonts/MathJax_Main-Bold.woff",
+    "lib/fonts/MathJax_Math-Italic.woff",
+    "lib/fonts/MathJax_Main-Italic.woff",
+    "lib/fonts/MathJax_Math-BoldItalic.woff",
+    "lib/fonts/MathJax_Size1-Regular.woff",
+    "lib/fonts/MathJax_Size2-Regular.woff",
+    "lib/fonts/MathJax_Size3-Regular.woff",
+    "lib/fonts/MathJax_Size4-Regular.woff",
+    "lib/fonts/MathJax_AMS-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Bold.woff",
+    "lib/fonts/MathJax_Fraktur-Regular.woff",
+    "lib/fonts/MathJax_Fraktur-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Regular.woff",
+    "lib/fonts/MathJax_SansSerif-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Italic.woff",
+    "lib/fonts/MathJax_Script-Regular.woff",
+    "lib/fonts/MathJax_Typewriter-Regular.woff",
+    "lib/fonts/MathJax_Vector-Regular.woff",
+    "lib/fonts/MathJax_Vector-Bold.woff"
+  ],
+  "fileInfo": {
+    "01 - Area/Unipd/Computer & Network Security/0_CNS-Exam_Rules.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 37,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/0_CNS-Exam_Rules.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/1_Set-UID_Mechanism.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 1450,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/1_Set-UID_Mechanism.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/2_Attack_on_Set-UID.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 2412,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/2_Attack_on_Set-UID.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/3_Env_Variables.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 4654,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/3_Env_Variables.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/4_Attack_on_Environment Variables.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 8855,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/4_Attack_on_Environment Variables.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/5_Shellshock_Attack.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 8085,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/5_Shellshock_Attack.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/6_Buffer_Overflow.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 10440,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/6_Buffer_Overflow.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/7_Return-to-libc.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 6962,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/7_Return-to-libc.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/8_Packet_Sniffing_Spoofing.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 11695,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/8_Packet_Sniffing_Spoofing.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/9_TCP_Attack.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 0,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/9_TCP_Attack.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Computer & Network Security/10_Format_String.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 10048,
+      "exportedPath": "01 - Area/Unipd/Computer & Network Security/10_Format_String.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Zero.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/MathJax_Zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Bold.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Math-Italic.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Italic.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Math-BoldItalic.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size1-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size2-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size3-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size4-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_AMS-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Calligraphic-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Calligraphic-Bold.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Fraktur-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Fraktur-Bold.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Bold.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Italic.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Script-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Typewriter-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Vector-Regular.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Vector-Bold.woff": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Big Data Computing/Argument BD.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 2073,
+      "exportedPath": "01 - Area/Unipd/Big Data Computing/Argument BD.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Big Data Computing/Idee map-reduce.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 3401,
+      "exportedPath": "01 - Area/Unipd/Big Data Computing/Idee map-reduce.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Concurrent and RT Programming/8_4-Concurrent_RT_Programming.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 211,
+      "exportedPath": "01 - Area/Unipd/Concurrent and RT Programming/8_4-Concurrent_RT_Programming.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Distributed Systems/20241004_Distributed_System.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 581,
+      "exportedPath": "01 - Area/Unipd/Distributed Systems/20241004_Distributed_System.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Distributed Systems/20241017_Distributed_Systems.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 719,
+      "exportedPath": "01 - Area/Unipd/Distributed Systems/20241017_Distributed_Systems.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Distributed Systems/20241018_Distributed_System.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 101,
+      "exportedPath": "01 - Area/Unipd/Distributed Systems/20241018_Distributed_System.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Distributed Systems/20241108_Distributed_System.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 551,
+      "exportedPath": "01 - Area/Unipd/Distributed Systems/20241108_Distributed_System.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Learning From Networks/Analysis of Eppstein-Wang Algorithm.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 871,
+      "exportedPath": "01 - Area/Unipd/Learning From Networks/Analysis of Eppstein-Wang Algorithm.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Learning From Networks/Graph Analysis.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 175,
+      "exportedPath": "01 - Area/Unipd/Learning From Networks/Graph Analysis.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Learning From Networks/ML Topics.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 4382,
+      "exportedPath": "01 - Area/Unipd/Learning From Networks/ML Topics.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/Metaheuristics/Metaheursitic intro.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 161,
+      "exportedPath": "01 - Area/Unipd/Operation Research/Metaheuristics/Metaheursitic intro.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/Metaheuristics/Tabu Search.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 426,
+      "exportedPath": "01 - Area/Unipd/Operation Research/Metaheuristics/Tabu Search.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/Cplex.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 7959,
+      "exportedPath": "01 - Area/Unipd/Operation Research/Cplex.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/Cplex callback.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 6389,
+      "exportedPath": "01 - Area/Unipd/Operation Research/Cplex callback.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/CPLEX Chap Or2 Thesis.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 1429,
+      "exportedPath": "01 - Area/Unipd/Operation Research/CPLEX Chap Or2 Thesis.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/OR Def and Theorem.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 1610,
+      "exportedPath": "01 - Area/Unipd/Operation Research/OR Def and Theorem.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Operation Research/OR2 Task.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 70,
+      "exportedPath": "01 - Area/Unipd/Operation Research/OR2 Task.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Statistics/Exercises L3.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 8871,
+      "exportedPath": "01 - Area/Unipd/Statistics/Exercises L3.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Statistics/Pasted image 20231111113111.png": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 82983,
+      "exportedPath": "01 - Area/Unipd/Statistics/Pasted image 20231111113111.png",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Statistics/Pasted image 20231111144827.png": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 103829,
+      "exportedPath": "01 - Area/Unipd/Statistics/Pasted image 20231111144827.png",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Statistics/Pasted image 20231111145030.png": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 83637,
+      "exportedPath": "01 - Area/Unipd/Statistics/Pasted image 20231111145030.png",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Statistics/Pasted image 20231111145711.png": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 54157,
+      "exportedPath": "01 - Area/Unipd/Statistics/Pasted image 20231111145711.png",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Thesis Notes.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 823,
+      "exportedPath": "01 - Area/Unipd/Thesis Notes.html",
+      "dependencies": []
+    },
+    "01 - Area/Unipd/Bisca's Mind.md": {
+      "modifiedTime": 1748437635883,
+      "sourceSize": 401,
+      "exportedPath": "01 - Area/Unipd/Bisca's Mind.html",
+      "dependencies": []
+    }
+  }
+}
